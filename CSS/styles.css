@@ -3,6 +3,7 @@ body{
   margin: 0;
   text-align: center;
   font-family:'Merriweather', serif;
+  width: 100%;
 }
 h1{
   font-size: 562.5%;
@@ -93,6 +94,7 @@ hr{
 .bottom-container{
   background-color: #66BFBF;
   padding: 50px 0 20px;
+  margin: auto;
 }
 .top-cloud{
   position: absolute;
@@ -122,4 +124,21 @@ hr{
   width: 50%;
   margin: 100px auto;
   text-align: left;
+}
+@media (max-width: 680px) {
+
+.skill-row {
+  width: 80%;
+}
+.contact-message{
+  width: 80%;
+}
+.profile{
+width: 80%;
+margin: auto;
+}
+.intro{
+  width: 100%;
+}
+
 }
